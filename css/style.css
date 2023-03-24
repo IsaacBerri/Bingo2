@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+    scrollbar-width: none;
+    scrollbar-color: #ffffff #000000;
+  }
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #666666;
+  }
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 300px;
+	height: 225px;
+	background-color: white;
+	margin-top: 30px;
+}
+
+.numerosPlayer, .numerosCpu  {
+	display: flex;
+	flex-wrap: wrap;
+}
+.numeroDelCarton {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+.tachado {
+	width: 50px;
+	height: 50px;
+	text-decoration: line-through;
+	background-color: white;
+	color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.card h2 {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid black;
+	color: black;
+	text-align: center;
+}
+.containerNumber {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px white solid;
+	border-radius: 50%;
+}
+.containerNumber p {
+	font-size: 18px;
+	color: white;
+}
+.number {
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+}
+.marks {
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	border: white 2px solid;
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.numberGenerate{
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
